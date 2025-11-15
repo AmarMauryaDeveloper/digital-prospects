@@ -9,25 +9,25 @@ const testimonials = [
     id: 1,
     name: "Krish Bruynson",
     role: "Director, Storloft",
-    img: client1,
+    im: client1,
   },
   {
     id: 2,
     name: "Krish Bruynson",
     role: "Director, Storloft",
-    img: client2,
+    im: client2,
   },
   {
     id: 3,
     name: "Krish Bruynson",
     role: "Director, Storloft",
-    img: client3,
+    im: client3,
   },
   {
     id: 4,
     name: "Krish Bruynson",
     role: "Director, Storloft",
-    img: client4,
+    im: client4,
   },
 ];
 
@@ -53,7 +53,7 @@ export default function Testimonials() {
               {/* Image Box */}
               <div className="relative w-64 h-80  overflow-hidden ">
                 <img
-                  src={item.img}
+                  src={item.im}
                   alt={item.name}
                   className="w-full h-full object-cover"
                 />
