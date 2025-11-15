@@ -51,7 +51,7 @@ export default function Testimonials() {
           {testimonials.map((item) => (
             <div key={item.id} className="flex flex-col  text-left">
               {/* Image Box */}
-              <div className="relative w-72 h-80  overflow-hidden ">
+              <div className="relative w-64 h-80  overflow-hidden ">
                 <img
                   src={item.img}
                   alt={item.name}
