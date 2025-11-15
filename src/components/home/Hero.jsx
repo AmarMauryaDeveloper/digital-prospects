@@ -14,7 +14,7 @@ export default function Hero() {
     bg-fixed sm:bg-scroll"
       style={{ backgroundImage: `url(${img})` }}
     >
-      <div className="container mx-auto w-full px-36">
+      <div className="container mx-auto w-full px-10">
         {/* MAIN RESPONSIVE WRAPPER */}
         <div className="flex flex-col lg:flex-row justify-between gap-10 pt-20 ">
 

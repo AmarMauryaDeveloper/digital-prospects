@@ -161,7 +161,7 @@ export default function HireDevelopersSection() {
 
   return (
     <div
-      className=" w-full py-16 px-6 md:px-48 relative "
+      className=" w-full py-16 px-6 md:px-10 relative "
       style={{
         backgroundImage: `url(${leftImg}), url(${rightImg})`,
         backgroundPosition: "left top, right top",

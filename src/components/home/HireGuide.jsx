@@ -29,7 +29,7 @@ export default function HireGuide() {
               <button
                 key={index}
                 onClick={() => setActive(index)}
-                className={`w-full text-left px-6 py-8.5 border-b text-lg font-medium transition ${
+                className={`w-full text-left px-6 py-8 border-b text-lg font-medium transition ${
                   active === index
                     ? "bg-[#2FC980] text-white"
                     : "bg-white text-gray-800 hover:bg-gray-100"
@@ -54,7 +54,7 @@ export default function HireGuide() {
             </p>
 
             {/* Points */}
-            <div className="grid grid-cols-1 tracking-wide sm:grid-cols-2 gap-4 pb-6">
+            <div className="grid grid-cols-1 tracking-wide sm:grid-cols-2 gap-4 pb-10">
               {[ 
                 "Client-Centric Approach",
                 "Best-In-Class Project Management",

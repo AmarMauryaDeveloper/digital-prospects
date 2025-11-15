@@ -14,12 +14,12 @@ export default function WhyHireDevelopers() {
         {/* Gradient overlay for readability */}
         <div className="absolute "></div>
 
-        <div className="relative container mx-auto px-4 sm:px-8 lg:px-20">
+        <div className="relative container mx-auto px-4 sm:px-8 lg:px-10">
           <div className="flex flex-col md:flex-row justify-between ">
             
             {/* Left Side Heading */}
             <div className="-mt-32">
-              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight drop-shadow-lg">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight drop-shadow-lg">
                 Why Hire Software Developers  <br />In India?
               </h1>
             </div>
