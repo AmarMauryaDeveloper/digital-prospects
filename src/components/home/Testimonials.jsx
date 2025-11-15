@@ -1,9 +1,9 @@
 import React from "react";
 import { Play } from "lucide-react";
-import client1 from "../../assets/vector1.svg";
-import client2 from "../../assets/vector2.svg";
-import client3 from "../../assets/vector3.svg";
-import client4 from "../../assets/vector4.svg";
+import client1 from "../../assets/vecto.svg";
+import client2 from "../../assets/vect.svg";
+import client3 from "../../assets/vec.svg";
+import client4 from "../../assets/vector.svg";
 const testimonials = [
   {
     id: 1,
