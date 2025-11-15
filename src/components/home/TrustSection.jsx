@@ -18,7 +18,6 @@ export default function TrustSection() {
         {/* IMAGE */}
         <div className="flex justify-center">
           <img
-          src=""
             src={devImage}
             alt="Developer Illustration"
             className="w-full max-w-xl object-contain"
