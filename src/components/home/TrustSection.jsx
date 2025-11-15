@@ -1,6 +1,6 @@
 import React from "react";
 import green from '../../assets/green.svg'
-import devImage from "../../assets/Codetyping.svg"; // update path
+import devImage from "../../assets/Codetyping.svg"; 
 
 export default function TrustSection() {
   const items = [
