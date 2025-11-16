@@ -66,7 +66,7 @@ export default function Testimonials() {
           </div>
 
           {/* Name */}
-          <div className="text-left">
+          <div className=" text-center md:text-left">
             <h3 className=" text-lg md:text-xl font-semibold text-gray-900">
               {item.name}
             </h3>
@@ -74,13 +74,13 @@ export default function Testimonials() {
             <p className="text-gray-600 text-sm md:text-base">{item.role}</p>
 
             {/* Stars */}
-            <div className="flex mt-1">
+            
               {[1, 2, 3, 4, 5].map((star) => (
-                <span key={star} className="text-green-500 text-lg md:text-xl">
+                <span key={star} className="text-green-500 text-center text-lg md:text-xl">
                   ★
                 </span>
               ))}
-            </div>
+           
           </div>
         </div>
       ))}

@@ -18,7 +18,7 @@ export default function WhyHireDevelopers() {
           <div className="flex flex-col md:flex-row justify-between ">
             
             {/* Left Side Heading */}
-            <div className="-mt-32">
+            <div className="md:-mt-32">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight drop-shadow-lg">
                 Why Hire Software Developers  <br />In India?
               </h1>

@@ -172,7 +172,7 @@ export default function HireDevelopersSection() {
       <div className="container mx-auto ">
         {/* SECTION 1 */}
         <div className="text-center ">
-          <h1 className="text-5xl md:text-5xl font-bold text-[#233A41] pb-8">
+          <h1 className="text-3xl md:text-5xl font-bold text-[#233A41] pb-8">
             Why Hire Developers From Our Name
           </h1>
           <p className="text-gray-600  px-5 md:px-72 text-xl">
@@ -211,7 +211,7 @@ export default function HireDevelopersSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row  px-20">
+        <div className="flex flex-col md:flex-row  md:px-20">
           {/* Left Section */}
           <div className="flex-1">
             <h2 className="text-3xl md:text-4xl  text-[#233A41] mb-10 leading-tight">
@@ -246,8 +246,8 @@ export default function HireDevelopersSection() {
         </div>
 
         {/* SECTION 2 */}
-        <div className="text-center container mx-auto ">
-          <h1 className="text-4xl md:text-5xl font-medium text-[#233A41] mb-4">
+        <div className="text-center  ">
+          <h1 className="text-3xl md:text-5xl font-medium text-[#233A41] mb-4">
             Our Diverse Technology Competency
           </h1>
           <p className="text-gray-600 px-5 py-10 md:px-80 text-xl">

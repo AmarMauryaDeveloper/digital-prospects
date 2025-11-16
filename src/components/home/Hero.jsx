@@ -14,7 +14,7 @@ export default function Hero() {
     bg-fixed sm:bg-scroll"
       style={{ backgroundImage: `url(${img})` }}
     >
-      <div className="container mx-auto w-full px-20">
+      <div className="container mx-auto w-full px-4 md:px-20">
         {/* MAIN RESPONSIVE WRAPPER */}
         <div className="flex flex-col lg:flex-row justify-between gap-10 pt-20 ">
 
@@ -59,7 +59,7 @@ export default function Hero() {
 
           {/* RIGHT FORM */}
           <div className="flex justify-center lg:justify-end w-full lg:w-1/2 px-0 lg:pl-20">
-            <div className="w-full max-w-[600px] h-auto pt-10 pb-5">
+            <div className="w-full max-w-[600px] h-auto md:pt-10 pb-5">
               <Form />
             </div>
           </div>
