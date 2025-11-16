@@ -14,7 +14,7 @@ export default function Hero() {
     bg-fixed sm:bg-scroll"
       style={{ backgroundImage: `url(${img})` }}
     >
-      <div className="container mx-auto w-full px-10">
+      <div className="container mx-auto w-full px-20">
         {/* MAIN RESPONSIVE WRAPPER */}
         <div className="flex flex-col lg:flex-row justify-between gap-10 pt-20 ">
 
@@ -23,15 +23,15 @@ export default function Hero() {
           w-full lg:w-1/2">
 
             <div className="flex items-center gap-3 justify-center md:justify-start">
-              <h2 className="text-[#21b86f] text-5xl sm:text-5xl font-medium tracking-wider">
+              <h2 className="text-[#21b86f] text-5xl sm:text-5xl  tracking-wider">
                 HIRE DEDICATED
               </h2>
 
               {/* Line */}
-              <div className="h-[4px] bg-[#21b86f] flex-1 hidden sm:block"></div>
+              <div className="h-[3px] bg-[#21b86f] flex-1 hidden sm:block"></div>
             </div>
 
-            <h1 className="text-[#0c2b33] text-5xl sm:text-6xl lg:text-8xl font-extrabold mt-3 leading-tight">
+            <h1 className="text-[#233A41] text-5xl sm:text-6xl lg:text-8xl font-extrabold mt-3 leading-tight">
               DEVELOPERS
             </h1>
 
@@ -39,7 +39,7 @@ export default function Hero() {
               Top 1% Pre-Vetted, In-House & Dedicated Software Programmers
             </p>
 
-            <p className="text-gray-500 mt-2 text-sm sm:text-base leading-relaxed max-w-lg mx-auto md:mx-0">
+            <p className="text-[#132A31] mt-2 text-sm sm:text-base leading-relaxed max-w-lg mx-auto md:mx-0">
               Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
               Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
               Ever Since The 1500s.
@@ -59,7 +59,7 @@ export default function Hero() {
 
           {/* RIGHT FORM */}
           <div className="flex justify-center lg:justify-end w-full lg:w-1/2 px-0 lg:pl-20">
-            <div className="w-full max-w-[600px] pt-10">
+            <div className="w-full max-w-[600px] h-auto pt-10 pb-5">
               <Form />
             </div>
           </div>

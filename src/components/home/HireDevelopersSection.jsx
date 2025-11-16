@@ -172,10 +172,10 @@ export default function HireDevelopersSection() {
       <div className="container mx-auto ">
         {/* SECTION 1 */}
         <div className="text-center ">
-          <h1 className="text-5xl md:text-5xl font-bold text-gray-900 pb-8">
+          <h1 className="text-5xl md:text-5xl font-bold text-[#233A41] pb-8">
             Why Hire Developers From Our Name
           </h1>
-          <p className="text-gray-600 px-72 text-xl">
+          <p className="text-gray-600  px-5 md:px-72 text-xl">
             Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
             Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
             Ever Since
@@ -190,7 +190,7 @@ export default function HireDevelopersSection() {
             />
           </div>
           <div className="w-full md:w-1/2 pt-10">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-700 mb-10 leading-tight">
+            <h2 className="text-3xl md:text-4xl  text-[#233A41] mb-10 leading-tight">
               High Quality/Cost Ratio
             </h2>
             <div className="space-y-12">
@@ -199,10 +199,10 @@ export default function HireDevelopersSection() {
                   <span className="text-4xl">{item.icon}</span>
 
                   <div>
-                    <h3 className="font-semibold text-gray-700 text-2xl mb-2">
+                    <h3 className=" text-[#233A41] text-2xl mb-2">
                       {item.title}
                     </h3>
-                    <p className="text-gray-600 text-lg leading-relaxed max-w-xl">
+                    <p className="text-gray-500 text-lg leading-relaxed max-w-xl">
                       {item.desc}
                     </p>
                   </div>
@@ -214,7 +214,7 @@ export default function HireDevelopersSection() {
         <div className="flex flex-col md:flex-row  px-20">
           {/* Left Section */}
           <div className="flex-1">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-700 mb-10 leading-tight">
+            <h2 className="text-3xl md:text-4xl  text-[#233A41] mb-10 leading-tight">
               Rigorous Vetting
             </h2>
 
@@ -224,7 +224,7 @@ export default function HireDevelopersSection() {
                   <span className="text-3xl">{item.icon}</span>
 
                   <div>
-                    <h3 className="font-semibold text-gray-700 text-2xl mb-2">
+                    <h3 className=" text-[#233A41] text-2xl mb-2">
                       {item.title}
                     </h3>
 
@@ -247,10 +247,10 @@ export default function HireDevelopersSection() {
 
         {/* SECTION 2 */}
         <div className="text-center container mx-auto ">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-medium text-[#233A41] mb-4">
             Our Diverse Technology Competency
           </h1>
-          <p className="text-gray-600 py-12 px-44 text-xl">
+          <p className="text-gray-600 px-5 py-10 md:px-80 text-xl">
             Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
             Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
             Ever Since
@@ -258,7 +258,7 @@ export default function HireDevelopersSection() {
         </div>
 
         {/* TECHNOLOGY CARDS */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-28 tracking-tighter">
           {techCards.map((card, i) => (
             <div
               key={i}

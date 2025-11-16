@@ -33,7 +33,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="w-full relative py-20 bg-gradient-to-br from-white to-green-100">
+    <section className="w-full relative py-20 bg-gradient-to-r from-white to-green-100">
       <div className="container mx-auto px-24">
         {/* Heading */}
         <div className="text-center  mx-auto mb-14">

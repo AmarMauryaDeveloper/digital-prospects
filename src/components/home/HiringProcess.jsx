@@ -39,13 +39,13 @@ export default function HiringProcess() {
             style={{
               backgroundImage: `url(${bg})`,
             }}>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-14">
         {/* Heading */}
         <div className="text-center mb-10 ">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#233A41]">
             Our Hiring Process
           </h2>
-          <p className="text-gray-600 py-8 text-lg tracking-widest">
+          <p className="text-gray-600 py-8 text-lg tracking-">
             Take A Look At Our Simple And Straightforward Process To Hire Software Developers.
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function HiringProcess() {
           {steps.map((step) => (
             <div key={step.id} className="flex flex-col items-center text-center max-w-xs">
               {/* Circle */}
-              <div className="relative w-48 h-48 rounded-full border-4 border-green-500 flex items-center justify-center bg-white shadow-lg">
+              <div className="relative w-48 h-48 rounded-full border-6 border-green-400 flex items-center justify-center bg-white shadow-lg ">
                 <img src={step.icon}className="text-6xl"/>
 
                 {/* Step number */}
@@ -70,7 +70,7 @@ export default function HiringProcess() {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-600 mt-3 text-sm leading-relaxed">
+              <p className="text-gray-600 mt-3 px-9 text-sm leading-relaxed">
                 {step.desc}
               </p>
             </div>

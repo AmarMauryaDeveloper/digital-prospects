@@ -5,7 +5,7 @@ export default function Form() {
     <div className="container mx-auto  ">
       <div className="bg-green-50 rounded-t-xl  shadow-xl p-1">
         <div>
-          <h2 className="text-center text-xl sm:text-xl font-semibold text-gray-700">
+          <h2 className="text-center  py-2 text-xl sm:text-xl font-semibold text-[#233A41]">
             Create Your Team
           </h2>
 
@@ -15,7 +15,7 @@ export default function Form() {
         </div>
       </div>
       <div className="">
-        <div className="bg-white shadow-xl px-8 pt-2 pb-6 rounded-b-xl">
+        <div className="bg-white shadow-xl px-8 pt-5 pb-6 rounded-b-xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="text-gray-600 text-sm font-medium">

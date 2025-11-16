@@ -14,12 +14,12 @@ export default function WhyHireDevelopers() {
         {/* Gradient overlay for readability */}
         <div className="absolute "></div>
 
-        <div className="relative container mx-auto px-4 sm:px-8 lg:px-10">
+        <div className="relative container mx-auto px-4 sm:px-8 lg:px-28">
           <div className="flex flex-col md:flex-row justify-between ">
             
             {/* Left Side Heading */}
             <div className="-mt-32">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight drop-shadow-lg">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight drop-shadow-lg">
                 Why Hire Software Developers  <br />In India?
               </h1>
             </div>
@@ -35,13 +35,13 @@ export default function WhyHireDevelopers() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex justify-between items-center border-b border-white/20 pb-3 
-                  group cursor-pointer transition-all"
+                  className="flex justify-between items-center border-b border-white/20 pb-6  gap-x-28
+                  group cursor-pointer"
                 >
-                  <p className="text-lg sm:text-xl md:text-4xl group-hover:text-blue-300 transition-all">
+                  <p className="text-lg sm:text-xl md:text-2xl group-hover:text-blue-300">
                     {item}
                   </p>
-                  <span className="text-xl sm:text-4xl group-hover:translate-x-1 group-hover:text-blue-300 transition-all">
+                  <span className="text-xl sm:text-3xl group-hover:translate-x-1 group-hover:text-blue-300">
                     ↗
                   </span>
                 </div>

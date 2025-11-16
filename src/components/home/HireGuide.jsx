@@ -18,7 +18,7 @@ export default function HireGuide() {
     <section className="w-full py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-center text-4xl font-bold text-gray-800 mb-14">
+        <h2 className="text-center text-4xl font-bold text-[#233A41] mb-14">
           User Guide To Hire Dedicated Software Developers
         </h2>
 
@@ -32,7 +32,7 @@ export default function HireGuide() {
                 className={`w-full text-left px-6 py-8 border-b text-lg font-medium transition ${
                   active === index
                     ? "bg-[#2FC980] text-white"
-                    : "bg-white text-gray-800 hover:bg-gray-100"
+                    : "bg-white text-[#2a3d42] hover:bg-gray-100"
                 }`}
               >
                 {item}
@@ -42,11 +42,11 @@ export default function HireGuide() {
 
           {/* RIGHT CONTENT */}
           <div className="lg:col-span-2 bg-white p-10 ">
-            <h3 className="text-3xl font-semibold text-gray-800 mb-4">
+            <h3 className="text-3xl font-semibold text-[#233A41] mb-4">
               Benefits Of Hiring Developers
             </h3>
 
-            <p className="text-gray-600 leading-7 tracking-widest pr-20 mb-8">
+            <p className="text-gray-500 leading-7 tracking- pr-40 mb-8">
               Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
               Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
               Ever Since The 1500s, When An Unknown Printer Took A Galley Of
