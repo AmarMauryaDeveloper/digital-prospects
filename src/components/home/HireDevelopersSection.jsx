@@ -236,7 +236,7 @@ export default function HireDevelopersSection() {
               ))}
             </div>
           </div>
-          <div className="-pt-20">
+          <div className="md:-mt-40">
             <img
               src={img2}
               className="w-[550px] md:w-[600px] h-auto"
@@ -258,7 +258,7 @@ export default function HireDevelopersSection() {
         </div>
 
         {/* TECHNOLOGY CARDS */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-28 tracking-tighter">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:px-10 tracking-tighter">
           {techCards.map((card, i) => (
             <div
               key={i}

@@ -46,7 +46,7 @@ export default function HireGuide() {
               Benefits Of Hiring Developers
             </h3>
 
-            <p className="text-gray-500 leading-7 tracking- pr-40 mb-8">
+            <p className="text-gray-500 leading-7 tracking- md:pr-40 mb-8">
               Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
               Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
               Ever Since The 1500s, When An Unknown Printer Took A Galley Of

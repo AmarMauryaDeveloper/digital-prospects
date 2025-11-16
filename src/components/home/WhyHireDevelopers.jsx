@@ -14,7 +14,7 @@ export default function WhyHireDevelopers() {
         {/* Gradient overlay for readability */}
         <div className="absolute "></div>
 
-        <div className="relative container mx-auto px-4 sm:px-8 lg:px-28">
+        <div className="relative container mx-auto px-4 sm:px-8 lg:px-2">
           <div className="flex flex-col md:flex-row justify-between ">
             
             {/* Left Side Heading */}
